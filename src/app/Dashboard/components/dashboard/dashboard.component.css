@@ -1,0 +1,255 @@
+/*novas configurações responsividade*/
+
+/*Não Mecher nas Configuracoes do Toolbar*/
+.toolbar{
+  color: #fff;
+  font-family: segoe script;
+  background-color:#CC0000;
+
+  position:relative;
+  bottom:6px;
+  height: 140px;
+}
+
+  .notifications_none{
+    color:#fff;
+  }
+
+  .pgJson{
+    position:relative;
+    bottom:40px;
+    font-size:14px;
+    margin-top:15px;
+    
+  }
+
+  .spanJson{
+    position:relative;
+    bottom:12px;
+    font-weight:bold;
+    font-size:15px;
+  }
+
+  .confForm{
+    position:relative;
+    top:70px;
+    right:200px;
+    height:72px; 
+    width:700px;
+    background-color:white;
+  }
+
+  .labelSaldo{
+    position:relative;
+    left:10px;
+    
+    color:black;
+    font-family:segoe script;
+    font-size: 15px;
+  }
+
+  .v{
+    position:relative;
+    left:150px;
+    bottom:30px;
+    color:black;
+  }
+
+
+
+.card1{
+  position:relative;
+  right:98px;
+  top:40px;
+  
+  
+}
+.card2{
+  position:relative;
+  left:286px;
+  bottom:16px;
+  
+  
+}
+.card3{
+  position:relative;
+  left:670px;
+  bottom:74px;
+ 
+  
+}
+
+.car4,.car5,.car6{
+  position:relative;
+  top:304px;
+ 
+}
+
+.card4{
+  position:relative;
+  right:666px;
+  top:204px;
+  
+  
+}
+.card5{
+  position:relative;
+  right:283px;
+  top:145px;
+  
+  
+}
+.card6{
+  position:relative;
+  left:100px;
+  top:87px;
+  
+  
+}
+.card7{
+  position:relative;
+  right:95px;
+  top:150px;
+ 
+  
+}
+.card7 p{
+  position:relative;
+  top:10px;
+ 
+  
+}
+
+.icone__grafico{
+  bottom:60px;
+  right:300px;
+}
+
+
+
+.card8{
+  position:relative;
+  right:95px;
+  top:180px;
+  
+  
+}
+
+.spPix{
+  font-size: 12px;
+  position: relative;
+  bottom: 15px;
+  left: 12px;
+  font-family: segoe script;
+
+
+}
+.spPagar{
+  font-size: 10px;
+  position: relative;
+  bottom: 15px;
+  left: 7px;
+  font-family: segoe script;
+
+}
+.spTranferir{
+  font-size: 10px;
+  position: relative;
+  bottom: 15px;
+  left: 0px;
+  font-family: segoe script;
+
+
+}
+.spComprovante{
+  font-size: 10px;
+  position: relative;
+  bottom: 15px;
+  right: 12px;
+  font-family: segoe script;
+
+
+}
+.spAtendimento{
+  font-size: 10px;
+  position: relative;
+  bottom: 15px;
+  right: 10px;
+  font-family: segoe script;
+
+
+}
+.spCobrar{
+  font-size: 10px;
+  position: relative;
+  bottom: 15px;
+  left: 0px;
+  font-family: segoe script;
+
+
+}
+
+
+.img__card__Pix{
+
+position:relative;
+top:4px;
+left:10px;
+
+}
+
+.img__Pagamento{
+height:25px;
+position:relative;
+left:8px;
+
+width:30px;
+
+}
+.img__cobrança{
+height:25px;
+position:relative;
+left:8px;
+width:30px;
+
+}
+.img__Chat{
+height:25px;
+position:relative;
+left:8px;
+width:30px;
+
+}
+
+
+.h4__meubanco{
+  color:black;
+  font-family: segoe script;
+  position:relative;
+  top:15px;
+  right: 500px;
+  font-weight: bold;
+}
+
+.link__Adicionar{
+  color:red;
+  font-family: segoe script;
+  font-weight: bold;
+  position:relative;
+  bottom:24px;
+  right:300px;
+  text-decoration: none;
+}
+
+
+.card8 p{
+  font-family: segoe script;
+  font-weight: bold;
+   color:black;
+  
+}
+
+
+
+/*novas configurações responsividade*/
+

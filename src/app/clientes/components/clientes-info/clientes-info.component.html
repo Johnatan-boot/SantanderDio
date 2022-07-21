@@ -1,0 +1,126 @@
+<h2>Clientes Info</h2>
+
+<hr/>
+
+<mat-card class=" mat-card">
+    <form class="form__clientes" #clienteForm="ngForm" *ngIf="cliente">
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Name:</label>    
+            <div class="col-sm-10">
+                <input [(ngModel)]="cliente.nome" required name="name" #clienteName="ngModel" [ngClass]="{'is-invalid': clienteName.invalid}" class="form-control">
+                
+                <div class="invalid-feedback">
+                    <span> Cliente o campo requer um  nome  </span>
+                </div>
+            </div>        
+        </div>
+    
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Sobrenome:</label>    
+            <div class="col-sm-10">
+                <input [(ngModel)]="cliente.sobrenome" required name="sobrenome" #clienteSobrenome="ngModel" type="text" 
+                    [ngClass]="{'is-invalid': clienteSobrenome.invalid}" class="form-control">
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer um  Sobrenome </span>
+                </div>
+            </div>        
+        </div>
+    
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">CPF:</label>    
+            <div class="col-sm-10">
+                <input [(ngModel)]="cliente.cpf" required name="cpf" #clienteCpf="ngModel" type="texto" 
+                    [ngClass]="{'is-invalid': clienteCpf.invalid}" class="form-control">
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer um  CPF</span>
+                </div>
+            </div>        
+        </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Data Nascimento:</label>    
+            <div class="col-sm-10">
+                <input [(ngModel)]="cliente.dataNasc" required name="dataNasc" #clientedataNasc="ngModel" type="texto" 
+                    [ngClass]="{'is-invalid': clientedataNasc.invalid}" class="form-control">
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer uma  Data de Nascimento</span>
+                </div>
+            </div>        
+        </div>
+    
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Idade:</label>    
+            <div class="col-sm-10">
+                <textarea [(ngModel)]="cliente.idade" required name="idade" #clienteIdade="ngModel" 
+                    [ngClass]="{'is-invalid': clienteIdade.invalid}" class="form-control"></textarea>
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer uma Idade</span>
+                </div>
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Telefone:</label>    
+            <div class="col-sm-10">
+                <textarea [(ngModel)]="cliente.telefone" required name="telefone" #clienteTelefone="ngModel" 
+                    [ngClass]="{'is-invalid': clienteTelefone.invalid}" class="form-control"></textarea>
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer um Telefone</span>
+                </div>
+            </div>        
+        </div>
+    
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Data Abertura Conta:</label>    
+            <div class="col-sm-10">
+                <textarea [(ngModel)]="cliente.dataAbertura" required name="dataAbertura" #clienteDataAbert="ngModel" 
+                    [ngClass]="{'is-invalid': clienteDataAbert.invalid}" class="form-control"></textarea>
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer uma Data de Abertura de Conta</span>
+                </div>
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label"> Profissão:</label>    
+            <div class="col-sm-10">
+                <textarea [(ngModel)]="cliente.profissao" required name="profissao" #clienteProfissao="ngModel" 
+                    [ngClass]="{'is-invalid': clienteProfissao.invalid}" class="form-control"></textarea>
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer uma  Profissão</span>
+                </div>
+            </div>        
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Email:</label>    
+            <div class="col-sm-10">
+                <textarea [(ngModel)]="cliente.email" required name="email" #clienteEmail="ngModel" 
+                    [ngClass]="{'is-invalid': clienteEmail.invalid}" class="form-control">
+                
+                <div class="invalid-feedback">
+                    <span>Cliente o campo requer um Email</span>
+                </div>
+            </div>        
+        </div>
+    
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Endereco:</label>    
+            <div class="col-sm-10">
+                <textarea [(ngModel)]="cliente.endereco" required name="endereco" #clienteEndereco="ngModel" 
+                    [ngClass]="{'is-invalid': clienteEndereco.invalid}" class="form-control"></textarea>
+                
+                <div class="invalid-feedback">
+                    <span> Cliente o campo requer um Endereco </span>
+                </div>
+            </div>        
+        </div>
+    
+        <button [disabled]="clienteForm.invalid" (click)="save()" class="btn btn-primary mr-2">Save</button>
+        <button [routerLink]="['/listarclientes']" class="btn btn-secondary">Back</button>
+    
+    </form>
+</mat-card>

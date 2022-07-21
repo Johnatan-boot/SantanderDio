@@ -1,0 +1,152 @@
+.card-title{
+    font-family: segoe script;
+    font-size: 16px;
+    margin-top:4px;
+
+}
+
+
+label{
+    font-family: segoe script;
+    font-weight: bolder;
+    position: relative;
+    left:124px;
+}
+
+.inputC{
+    position: relative;
+    width: 300px;
+    left:10px;
+    background-color:white;
+}
+
+.card{
+    position: relative;
+    top: 5px;
+    left: 9px;
+    width: 300px;
+    font-size: 11px;
+    height: 555px;
+    border-radius: 13px;
+  
+   
+}
+ 
+
+
+
+
+th{
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+    width: 9px;
+   
+}
+
+
+.table-dark th{
+    position:relative;
+    right:12px;
+    top:1px;
+    width: 300px;
+}
+.table-dark td{
+    position:relative;
+    width: 300px;
+    right:12px;
+    top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.th__dataAb{
+    position: relative;
+    right: 57px;
+    
+   
+}
+
+
+.th__email{
+    position: relative;
+    right: 50px;
+    
+   
+}
+
+td{
+    position: relative;
+    right: 50px;
+    bottom: 35px;
+    width: 90px;
+  
+   
+}
+
+
+
+
+
+
+.negrito{
+    color: black;
+    font-family: segoe script;
+    font-weight: bold;
+}
+.avatar{
+    border-radius: 30px;
+    
+}
+
+.btn{
+    height: 30px;
+    width: 60px;
+    font-size: 7px;
+    font-family: segoe script;
+    font-weight: bold;
+}
+
+.btn-success{
+    width: 250px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+    right: 6px;
+}
+
+
+.th_id{
+    position: relative;
+    right: 30px;
+}
+
+
+@media (min-width:320px) and (max-width:1920px){
+   .inputC{
+    width: 100%;
+   }
+
+   table{
+    width: 20%;
+   }
+   .card{
+    width:103%;
+   }
+   .btn-success{
+    position: relative;
+    right:25px;
+    font-size: 18px;
+   }
+   .btn-success:hover{
+    background-color: rgb(37, 199, 50);
+   }
+}

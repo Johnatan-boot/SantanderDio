@@ -1,0 +1,43 @@
+
+
+    <div  class="container col-10 text-center">
+       <div class="row">
+      <div class="col">
+        <form [formGroup]="form"  novalidate>
+          <mat-list>
+            <mat-list-item>
+            <mat-form-field>
+              <input class="form__logine"  matInput placeholder="Email" 
+                formControlName="email">
+            </mat-form-field>
+          </mat-list-item>
+            <mat-list-item>
+            <mat-form-field>
+              <input  class="form__logins" type="password" matInput placeholder="Senha"
+                formControlName="senha">
+            </mat-form-field>
+            <span matTooltip="Senha deve conter ao menos 6 caracteres">
+              <mat-icon>help</mat-icon>
+            </span>
+          </mat-list-item>
+            <mat-list-item fxLayoutAlign="center">
+            <button mat-raised-button class="btn__login"
+               (click)="logar()">
+              Entrar
+            </button>
+          </mat-list-item>
+            <mat-list-item class="btn__cadastro">
+              <a mat-button class="btn__loginpf" routerLink="/cadastro-pf">
+              Cadastrar PF
+            </a>
+            <a mat-button class="btn__loginpj" routerLink="/cadastro-pj">
+              Cadastrar PJ
+            </a>
+          </mat-list-item>
+          </mat-list> 
+        </form>
+      </div>
+       </div>
+      
+      
+    </div>

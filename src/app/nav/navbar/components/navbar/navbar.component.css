@@ -1,0 +1,22 @@
+.toolbar{
+    background-color:#CC0000;
+    
+}
+
+.navbar-brand{
+    font-family:segoe script;
+    position: relative;
+    left:115px;
+}
+
+.tab a{
+    font-family:segoe script;
+    text-decoration:none;
+    font-size: 8px;
+}
+
+li a{
+    font-family:segoe script;
+    text-decoration:none;
+    font-size: 8px;
+}

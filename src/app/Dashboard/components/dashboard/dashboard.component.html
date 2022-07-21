@@ -1,0 +1,88 @@
+<div class="col">
+  <div class="col-12 col-md-3 col-xl-12">
+    <mat-toolbar class=" container-fluid toolbar">
+      <p class="pgJson">Olá,Johnatan<br>
+       <span class="spanJson">Ag 1234 Cc00876754-8</span>
+     </p>
+     <mat-form-field class="confForm" appearance="fill">
+       <mat-label class="labelSaldo">Saldo Disponivel <p class="v">v</p></mat-label>
+       <mat-select>
+         <mat-option  class="container-fluid" *ngFor="let saldo of saldos" [value]="saldo.value">
+           {{saldo.viewValue}}
+         </mat-option>
+       </mat-select>
+     </mat-form-field>
+   
+   </mat-toolbar>
+  </div>
+</div>
+
+
+ <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card1">
+        <mat-card class="col-7 col-md-3 col-xl-8"><span class="spPix">Pix</span>
+          <img class="img__card__Pix" src="/assets/IconPix.png">
+        </mat-card>
+      </div>
+      <div class="card2">
+        <mat-card class="col-7 col-md-3 col-xl-8"><span class="spPagar">Pagar</span>
+          <img class="img__Pagamento" src="/assets/Pagamento.png">
+        </mat-card>
+      </div>
+      <div class="card3">
+        <mat-card class="col-7 col-md-3 col-xl-7"><span class="spTranferir">Tranferir</span>
+          <img class="img__Pagamento" src="/assets/transferencia.png">
+          </mat-card>
+      </div>
+     
+    </div>
+    <div class="col">
+      <div class="card4">
+        <mat-card class="col-7 col-md-3 col-xl-8"><span class="spCobrar">Cobrar</span>
+          <img class="img__cobrança" src="/assets/cobrança.png">
+          </mat-card>
+      </div>
+        
+        <div class="card5">
+          <mat-card class="col-7 col-md-3 col-xl-8"><span class="spComprovante">Comprovantes</span>
+            <img class="img__Pagamento" src="/assets/comprovante.png">
+          </mat-card>
+        </div>
+       <div class="card6">
+        <mat-card class="col-7 col-md-3 col-xl-7"><span class="spAtendimento">Atendimento</span>
+          <img class="img__Chat" src="/assets/chat.png">
+        </mat-card>
+       </div>
+    </div>
+   <div class="row">
+    <div class="col">
+      <div class="card7">
+        <mat-card class="col-7 col-md-3 col-xl-12"><p class="pgSantOn">Santander On. Sua Vida<br> 
+          Financeira Muito Mais Simples!</p>
+         <img class="icone__grafico" src="./assets/graficoAlt.jpg">
+         </mat-card>
+         <h4 class="  h4__meubanco">Meus Bancos</h4>
+         <a class="link__Adicionar">Adicionar</a>
+      </div>
+    
+     <div class="card8">
+      <mat-card class="col-7 col-md-3 col-xl-12">
+        <p>Acesse tudo em um Só Lugar</p>
+        </mat-card>
+     </div>
+  
+    
+    </div>
+  </div>
+   </div>
+</div>
+ 
+
+ 
+
+
+
+
+ 

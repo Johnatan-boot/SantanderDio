@@ -1,0 +1,84 @@
+
+
+<div class="card w-100 my-5">
+    <div class="card-body">
+      <h1 class="card-title text-center">Cadastro Clientes</h1>
+      <form [formGroup]="clienteForm">
+        <div class="row my-4">
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="nome" id="nome" placeholder="Digite o seu nome">
+              <label for="nome">Nome</label>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome">
+              <label for="sobrenome">Sobrenome</label>
+            </div>
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="idade" id="idade" placeholder="Digite a sua Idade">
+              <label for="idade">idade</label>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="cpf" id="cpf" placeholder="Digite o seu CPF">
+              <label for="cpf">CPF</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="dataNasc" id="dataNasc" placeholder="Digite a sua Data de Nascimento">
+              <label for="dataNasc">Data Nascimento</label>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="dataAbertura" id="dataAbertura" placeholder="Informe a Data de Abertura Conta">
+              <label for="dataAbertura">Data Abertura</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="profissao" id="profissao" placeholder="Digite a sua Profissao">
+              <label for="profissao">Profissao</label>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="email" id="email" placeholder="Informe o Seu E-mail">
+              <label for="email">Email</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-4">
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" formControlName="endereco" id="endereco" placeholder="Digite o Seu Endereco">
+              <label for="endereco">Endereco</label>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="row my-4">
+          <div class="form-group col-12 mt-4">
+            <button type="button" class="btn btn-outline-danger float-start">Cancelar</button>
+            <button type="button" class="btn btn-outline-success float-end" (click)="createCliente()">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
